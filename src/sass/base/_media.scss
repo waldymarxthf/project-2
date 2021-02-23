@@ -38,7 +38,38 @@
             }
         }
     }
+    .request{
+        padding: 50px 0 50px 0;
+        min-height: 530px;
+        &__title{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            font-size: 22px;
+            }
+        &__descr{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            font-size: 16px;
+            }
+        }
+    .feed-form{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        input{
+            width: 250px;
+            height: 45px;
+        }
+        .button{
+            width: 250px;
+            height: 30px;
+            font-size: 13px;
+        }
+    }
 }
+
 @media screen and (max-width: 575px){
     .promo{
         padding: 10px 0 50px 0;
